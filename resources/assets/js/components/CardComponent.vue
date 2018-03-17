@@ -1,22 +1,18 @@
 <template>
-    <v-layout  row justify-center>
-        <v-flex xs12 sm6 md3>
-            <v-card>
-                <v-card-media src="https://vuetifyjs.com/static/doc-images/cards/desert.jpg" height="200px">
-                </v-card-media>
-                <v-card-title primary-title>
-                    <div>
-                        <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-                        <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/300x200" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Продукт 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="price float-left h2">
+                            <strong>100 USD</strong>
+                        </p>
+                        <a href="#" class="btn btn-success buy float-right"  data-price="100" data-product="Продукт 1">Buy now</a>
                     </div>
-                </v-card-title>
-                <v-card-actions>
-                    <v-btn flat color="orange">Share</v-btn>
-                    <v-btn flat color="orange">Explore</v-btn>
-                </v-card-actions>
-            </v-card>
-        </v-flex>
-    </v-layout>
+                </div>
+            </div>
 </template>
 
 <script>
@@ -26,10 +22,5 @@
 </script>
 
 <style scoped>
-    .layout{
-        margin-top: 10px;
-    }
-    .card {
-        box-shadow: none;
-    }
+
 </style>
