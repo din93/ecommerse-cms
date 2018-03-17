@@ -10006,5 +10006,12 @@ a.text-dark:focus {
 
 .card {
   margin-bottom: 20px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.68);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.68);
 }
 
